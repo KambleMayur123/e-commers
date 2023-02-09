@@ -1,0 +1,266 @@
+.main-bg {
+    background: linear-gradient(104.58deg, #FFDCF3 2.1%, #D7FFFF 100.64%);
+
+}
+
+.header-li {
+    list-style-type: none;
+    display: flex;
+
+}
+
+.m-top {
+    margin-top: 10px;
+}
+
+ul li {
+    padding: 15px;
+    font-size: 20px;
+}
+
+.main-icons {
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+
+}
+
+.icons {
+    padding: 15px;
+}
+
+.brandName {
+    text-align: center;
+    padding: 15px;
+    font-size: 40px;
+    font-weight: 700;
+    color: #677DA8;
+
+}
+
+.main-user {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.user {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.badgee {
+    height: 1px;
+    width: 1px;
+    border-radius: 50%;
+    background-color: #677da8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.main-badge {
+    margin-left: -25px;
+
+}
+
+.logo-img {
+    height: auto;
+    width: 15%;
+}
+
+.d-flexx {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.shoes-txt {
+    font-size: 51px;
+    line-height: 71px;
+    text-transform: uppercase;
+    color: #677DA8;
+    font-weight: 700;
+}
+
+.underlinee {
+    border-bottom: 2px solid #677DA8;
+
+}
+
+.paragraph {
+    font-size: 16.6611px;
+    line-height: 35px;
+    color: #677DA8;
+}
+
+.shop-btn {
+    padding: 18px 46px;
+    background: #FFFFFF;
+    box-shadow: 1px 10px 18px rgba(51, 99, 108, 0.08);
+    border-radius: 10px;
+    color: #677DA8;
+    font-weight: 500;
+
+}
+
+.shop-btn:hover {
+    background-color: transparent;
+    border: 1px solid #677DA8;
+    transition: 1s;
+}
+
+.plen-img {
+    position: absolute;
+    transform: rotate(10deg);
+    left: 225px;
+    top: 420px;
+}
+
+.rating-stars {
+    gap: 5px;
+    margin: 60px 0 0 120px;
+    display: flex;
+    justify-content: center;
+    color: #A61473;
+    font-size: 20px;
+    align-items: center;
+
+}
+
+.main-rating {
+    margin: 0 0 0 75px;
+
+}
+
+.review {
+    display: flex;
+    justify-content: center;
+    margin: 0 0 0 115px;
+}
+
+/* 
+.overlap-border {
+    position: relative;
+} */
+
+.border1-img {
+    position: absolute;
+    bottom: 0;
+    left: 60%;
+}
+
+.border2-img {
+    position: absolute;
+    bottom: 30%;
+    right: 10%;
+}
+
+.shoes-img {
+    height: auto;
+    width: 90%;
+
+}
+
+/* .main-shoe {
+    display: flex;
+    justify-content: center;
+    /* position: relative;
+    bottom: 57%;
+    z-index: -1;
+    left: -15px; */
+
+
+.color-review,
+.rate {
+    color: #677DA8;
+
+}
+
+.color-review {
+    font-weight: 600;
+
+}
+
+.rate {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.main-section {
+    margin: 50px 0 0 0;
+
+}
+
+.borders {
+    background: radial-gradient(circle at 100% 100%, #ffffff 0, #ffffff 9px, transparent 9px) 0% 0%/10px 10px no-repeat,
+        radial-gradient(circle at 0 100%, #ffffff 0, #ffffff 9px, transparent 9px) 100% 0%/10px 10px no-repeat,
+        radial-gradient(circle at 100% 0, #ffffff 0, #ffffff 9px, transparent 9px) 0% 100%/10px 10px no-repeat,
+        radial-gradient(circle at 0 0, #ffffff 0, #ffffff 9px, transparent 9px) 100% 100%/10px 10px no-repeat,
+        linear-gradient(#ffffff, #ffffff) 50% 50%/calc(100% - 2px) calc(100% - 20px) no-repeat,
+        linear-gradient(#ffffff, #ffffff) 50% 50%/calc(100% - 20px) calc(100% - 2px) no-repeat,
+        linear-gradient(165deg, #a61473 0%, #ffffff 57%, #05f2f2 88%);
+    border-radius: 11px 11px 0 0;
+    padding: 5px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    height: 75%;
+
+
+
+
+
+
+
+}
+
+.second-border {
+
+    border-radius: 18px;
+}
+
+.xyz {
+    height: auto;
+    width: 85%;
+    object-fit: contain;
+
+}
+
+.heart {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background: radial-gradient(51.56% 51.56% at 40.62% 29.69%, rgba(255, 255, 255, 0.19) 4.81%, rgba(255, 255, 255, 0) 100%), linear-gradient(180deg, #E142AA 0%, #73FFFF 100%);
+    display: flex;
+    align-items: center;
+    color: white;
+    justify-content: center;
+    font-size: 17px;
+
+}
+
+.buy-btn {
+    background: #FFFFFF;
+    box-shadow: 1.85123px 10.1818px 18.5123px #f2ddeb;
+    border-radius: 9.25614px;
+    padding: 7px 10px;
+    color: #677DA8;
+    float: right;
+
+
+}
+
+.underline {
+    text-decoration-line: line-through;
+}
+
+/* #A61473 33% #FFFFFF 100% #05F2F2 37% */
